@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := beryllium
+PRODUCT_RELEASE_NAME := ursa
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,15 +23,15 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_beryllium
-PRODUCT_DEVICE := beryllium
+PRODUCT_NAME := omni_ursa
+PRODUCT_DEVICE := ursa
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := POCO F1
+PRODUCT_MODEL := Mi 8 EE
 PRODUCT_MANUFACTURER := Xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := beryllium
-TARGET_VENDOR_DEVICE_NAME := beryllium
+TARGET_VENDOR_PRODUCT_NAME := ursa
+TARGET_VENDOR_DEVICE_NAME := ursa
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=beryllium \
-    BUILD_PRODUCT=beryllium \
-    PRODUCT_NAME=beryllium
+    TARGET_DEVICE=ursa \
+    BUILD_PRODUCT=ursa \
+    PRODUCT_NAME=ursa
