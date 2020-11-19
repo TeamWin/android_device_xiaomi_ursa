@@ -16,3 +16,6 @@
 
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_ursa.mk
 
+COMMON_LUNCH_CHOICES := \
+    omni_ursa-userdebug \
+    omni_ursa-eng
